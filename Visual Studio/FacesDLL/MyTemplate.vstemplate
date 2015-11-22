@@ -1,0 +1,39 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>FacesDLL</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FacesDLL</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DllGuru.vcxproj" File="DllGuru.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">DllGuru.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesDLL.cpp">FacesDLL.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="dllmain.cpp">dllmain.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesBase.cpp">FacesBase.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesDetect.cpp">FacesDetect.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesRecognize.cpp">FacesRecognize.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GlobalConfig.cpp">GlobalConfig.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesDLL.h">FacesDLL.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesBase.h">FacesBase.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesDetect.h">FacesDetect.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesException.h">FacesException.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FacesRecognize.h">FacesRecognize.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GlobalConfig.h">GlobalConfig.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="resource.h">resource.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="targetver.h">targetver.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ClassDiagram.cd">ClassDiagram.cd</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ClassDiagram1.cd">ClassDiagram1.cd</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
