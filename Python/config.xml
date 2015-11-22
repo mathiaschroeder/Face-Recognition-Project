@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration>
+	<appSettings>
+		<add key="dirRcb" value="C:\Users\Sociesc\Desktop\http-python\upload\" />
+		<add key="dirPrc" value="C:\Users\Sociesc\Desktop\protipo_face_recognition\imagens_processadas\" />
+		<add key="dirPgm" value="C:\Users\Sociesc\Desktop\protipo_face_recognition\imagens_pgm\" />
+		<add key="dirTrainModel" value="C:\Users\Sociesc\Desktop\protipo_face_recognition\imagens_modelo\" />
+		<add key="imgTypes" value="jpg,png,bmp" />
+	</appSettings>
+</configuration>
